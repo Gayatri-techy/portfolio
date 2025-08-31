@@ -47,7 +47,6 @@ header {
       rgba(100, 101, 101, 0.4)
     ),
     url(https://img.freepik.com/free-vector/blue-polygon-dark-background-social-template_53876-116080.jpg?semt=ais_items_boosted&w=740);
-  /* background-color: black; */
   height: 600px;
   width: 100%;
   color: white;
@@ -274,24 +273,27 @@ textarea {
   border: none;
 }
 
-.contact-section button {
+.contact-section .contactbtn {
   text-decoration: none;
   color: white;
   background-color: rgb(30, 154, 165);
   width: 100px;
-  padding: 3px 3px;
+  padding: 15px 4px;
+  text-align: center;
+  font-size: 18px;
   position: relative;
   top: 0;
   transition: top ease 0.5s;
   text-align: center;
   margin-top: 25px;
   border-radius: 6px;
+  border: none;
 }
 
-.contact-section a:hover {
+.contact-section button:hover {
   border: 1px solid #4fb7b7;
   top: -8px;
-  background: url(https://cdn.pixabay.com/photo/2020/03/16/22/09/wood-4938474_1280.jpg);
+  cursor: pointer;
 }
 .contact-socialmedia {
   display: flex;
@@ -318,7 +320,6 @@ textarea {
 }
 
 footer {
-  /* background: url(https://cdn.pixabay.com/photo/2020/03/27/17/56/toilet-paper-4974461_1280.jpg); */
   background-color: grey;
   height: 50px;
   text-align: center;
